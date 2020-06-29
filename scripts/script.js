@@ -11,6 +11,24 @@ function scrollFunction() {
   }
 };
 
+// When the user clicks on the Su bscribe now Submit button make the background have an overlay
+const toggleModal = () => {
+  document.querySelector('.modal')
+  .classList.toggle('modal--hidden');
+};
+
+document.querySelector('#show-modal')
+  .addEventListener('click', toggleModal);
+
+document.querySelector('#subscribe')
+  .addEventListener('submit', (event) => {
+    event.preventDefault();
+    toggleModal();
+});
+
+document.querySelector('.modal__close-bar span')
+  .addEventListener('click', toggleModal);
+  
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   $(window).scrollTop(0);

@@ -95,12 +95,26 @@
       </div>
 
        <!-- Subscribe Button -->
-       <div class="container" id="sub-button">
-        <div class="title">
-          <a href="./sub.html" style="color: white; text-decoration: none" target="_blank">Subscribe Now</a> <!-- FYI Put in new html saying thanks for subscribing -->
-          </div>
+      <div class="container" id="sub-button">
+        <div class="content">
+          <button id="show-modal">Subscribe Now</button> <!-- FYI Put in new html saying thanks for subscribing -->
+        </div>
       </div>
 
+       <!-- Subscribe Pop up -->
+      <div class="modal modal--hidden">
+        <div class="modal-contents">  
+          <div class="modal__close-bar">
+            <span>X</span>
+          </div>
+          <p> Thank you!</p> 
+          <form id="subscribe">
+            <input type= "email" placeholder="Your email">
+            <button id="submit"> Submit </button>
+            <script src="script.js"></script>
+          </form>
+        </div>
+      </div>
       <!-- News card 1 -->
       <article class="card">
         <div class="card__wrapper">
