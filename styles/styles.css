@@ -79,14 +79,13 @@ main {
 /* The Modal Pop Up (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: absolute; /* Move with page */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
   width: 50%; /* Full width */
   height: 50%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: pink; /* Fallback color */
 }
 
 /* Modal Content/Box */
