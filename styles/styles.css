@@ -79,7 +79,7 @@ main {
 /* The Modal Pop Up (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: absolute !important; /* Move with page */
+  position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
@@ -87,13 +87,12 @@ main {
   height: 50%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: pink; /* Fallback color */
-  color: white;
 }
 
 /* Modal Content/Box */
 .modal-content {
   background-color: pink;
-  color: white;
+  text-color: white;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
