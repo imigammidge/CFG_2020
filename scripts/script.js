@@ -18,35 +18,30 @@ function topFunction() {
 // ---- Scroll back to top button END ---- //
 
 
-// ---- Subscribe button prompt ---- //
-// When the user clicks on the Subscribe now button make the background have an overlay
-const toggleModal = () => {
-  document.querySelector('.modal')
-  .classList.toggle('modal--hidden');
-};
+// Subscribe button modal pop up //
+// Get the modal
+var modal = document.getElementById("myModal")
+// Get the button that opens the modal
+var btn = document.getElementById("sub-button");
 
-document.querySelector('#show-modal')
-  .addEventListener('click', toggleModal);
-
-document.querySelector('#subscribe')
-  .addEventListener('submit', (event) => {
-    event.preventDefault();
-    toggleModal();
-});
-
-document.querySelector('.modal__close-bar span')
-  .addEventListener('click', toggleModal);
-// ---- Subscribe button prompt END ---- //
-
-// Subscribe button attempt 2 //
-var modal = document.getElementById("sub-button")
-var btn = document.getElementById("myModal");
+// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
 btn.onclick = function() {
   modal.style.display = "block";
 }
+// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+// Subscribe button modal pop up END //
+
 // END
   
