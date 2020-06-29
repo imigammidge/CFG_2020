@@ -10,8 +10,16 @@ function scrollFunction() {
     $("#go-top-button").hide();
   }
 };
+  
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  $(window).scrollTop(0);
+}
+// ---- Scroll back to top button END ---- //
 
-// When the user clicks on the Su bscribe now Submit button make the background have an overlay
+
+// ---- Subscribe button prompt ---- //
+// When the user clicks on the Subscribe now button make the background have an overlay
 const toggleModal = () => {
   document.querySelector('.modal')
   .classList.toggle('modal--hidden');
@@ -28,15 +36,17 @@ document.querySelector('#subscribe')
 
 document.querySelector('.modal__close-bar span')
   .addEventListener('click', toggleModal);
-  
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  $(window).scrollTop(0);
+// ---- Subscribe button prompt END ---- //
+
+// Subscribe button attempt 2 //
+var modal = document.getElementById("sub-button")
+var btn = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
 }
-// ---- Scroll back to top button END ---- //
-
-
-// ---- Subscribe button prompt ---- //
-// How do I link this?! //
-
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// END
   
