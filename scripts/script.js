@@ -23,7 +23,7 @@ function myFunction() {
 }
 
 
-// Subscribe button modal pop up //
+// Subscribe button modal pop up ignore this //
 
 var modal = document.querySelector(".modal");
 var trigger = document.getElementById("sub-button");
@@ -43,12 +43,14 @@ trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 
+// Ignore the above //
+
 
 // Form 'Send Message' pop up //
 function clicked(e)
 {
     if(!confirm('Are you sure?'))e.preventDefault();
-    window.location.href = 'sub.html';
+    window.location.href = "index.html";
 }
 
 
