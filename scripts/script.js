@@ -49,7 +49,7 @@ window.addEventListener("click", windowOnClick);
 // Form 'Send Message' pop up //
 function clicked(e)
 {
-    if(!confirm('Are you sure?');
+    if(!confirm('Are you sure?'));
 }
 
 
