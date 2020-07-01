@@ -50,6 +50,7 @@ main {
 
 #sub-button {
   display: block;
+  margin: auto;
   width: 230px;
   position: relative; 
   font-size: 16px;
