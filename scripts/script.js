@@ -50,7 +50,7 @@ window.addEventListener("click", windowOnClick);
 function clicked(e)
 {
     if(!confirm('Are you sure?'))e.preventDefault();
-    window.location.href = "index.html";
+    window.location.href = "https://imigammidge.github.io/CFG_2020/";
 }
 
 
