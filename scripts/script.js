@@ -17,6 +17,12 @@ function topFunction() {
 }
 // ---- Scroll back to top button END ---- //
 
+// Subscribe button alert box //
+function myFunction() {
+  alert("Thank you for subscribing!");
+}
+
+
 // Subscribe button modal pop up //
 
 var modal = document.querySelector(".modal");
