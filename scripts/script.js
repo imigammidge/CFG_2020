@@ -49,8 +49,7 @@ window.addEventListener("click", windowOnClick);
 // Form 'Send Message' pop up //
 function clicked(e)
 {
-    if(!confirm('Are you sure?'))e.preventDefault();
-    location.reload();
+    if(!confirm('Are you sure?');
 }
 
 
