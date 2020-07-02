@@ -19,7 +19,7 @@ function topFunction() {
 
 // Subscribe button alert box //
 function myFunction() {
-  alert("Thank you!");
+  alert("Thank you for subscribing!");
 }
 
 
