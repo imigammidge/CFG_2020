@@ -46,12 +46,19 @@ window.addEventListener("click", windowOnClick);
 // Ignore the above //
 
 
-// Form 'Send Message' pop up //
+// Form 'Send Message' pop up IGNORE THIS TOO //
 function clicked(e)
 {
     if(!confirm('Are you sure?'));
 }
+// IGNORE ABOVE //
 
+// 2nd Try at the Send Message button // 
+
+function myFunction2() {
+  alert("Thank you for your message!");
+}
+// Send Message button end // 
 
 // END
   
