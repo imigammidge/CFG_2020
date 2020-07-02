@@ -19,7 +19,7 @@ function topFunction() {
 
 // Subscribe button alert box //
 function myFunction() {
-  alert("Thank you for subscribing!");
+  alert("Thank you!");
 }
 
 
@@ -46,18 +46,18 @@ window.addEventListener("click", windowOnClick);
 // Ignore the above //
 
 
-// Form 'Send Message' pop up IGNORE THIS TOO //
+// Form 'Send Message' pop up //
 function clicked(e)
 {
     if(!confirm('Are you sure?'));
 }
 // IGNORE ABOVE //
 
-// 2nd Try at the Send Message button // 
+// 2nd Try at the Send Message button IGNORE THIS // 
 
-function myFunction2() {
-  alert("Thank you for your message!");
-}
+//function myFunction2() {
+ // alert("Thank you for your message!");
+//}
 // Send Message button end // 
 
 // END
